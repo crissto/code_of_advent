@@ -1,0 +1,7 @@
+use aoc_2022::read_input;
+
+const DAY: i8 = $DAY_REPLACER$;
+
+fn main() {
+    let input = read_input(DAY);
+}

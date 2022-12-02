@@ -1,5 +1,8 @@
 use std::fs;
 
+pub type GenericResult<T> = Result<T, Box<dyn std::error::Error>>;
+pub type NullResult = GenericResult<()>;
+
 pub fn read_input(day: i8) -> String {
     let result = fs::read_to_string(format!("src/day{}/input.txt", day))
         .expect("Should have been able to read the file");
