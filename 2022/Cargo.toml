@@ -36,3 +36,7 @@ path = "src/day3/solution.rs"
 [[bin]]
 name = "day4"
 path = "src/day4/solution.rs"
+
+[[bin]]
+name = "day5"
+path = "src/day5/solution.rs"
