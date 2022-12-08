@@ -9,6 +9,7 @@ edition = "2021"
 clap = { version = "4.0.29", features = ["derive"] }
 reqwest = { version = "0.11.13", features = ["blocking", "cookie_store", "cookies", "gzip"] }
 regex = "1"
+serde_json = "1.0.89"
 
 # https://fasterthanli.me/articles/why-is-my-rust-build-so-slow
 [profile.release]
@@ -44,3 +45,11 @@ path = "src/day5/solution.rs"
 [[bin]]
 name = "day6"
 path = "src/day6/solution.rs"
+
+[[bin]]
+name = "day7"
+path = "src/day7/solution.rs"
+
+[[bin]]
+name = "day8"
+path = "src/day8/solution.rs"

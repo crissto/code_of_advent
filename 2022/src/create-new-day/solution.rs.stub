@@ -4,4 +4,5 @@ const DAY: i8 = $DAY_REPLACER$;
 
 fn main() {
     let input = read_input(DAY);
+    let lines: Vec<&str> = input.lines().collect();
 }
